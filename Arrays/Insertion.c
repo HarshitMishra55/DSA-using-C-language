@@ -47,7 +47,7 @@ int main()
 
     while (pos <= 0 || pos > sizeOfArray)
     {
-        printf("Invalid position means this position is not present in your array\nTry again \n");
+        printf("Invalid position, means this position is not present in your array\nTry again \n");
         printf("At which position do you want to insert => ");
         scanf("%d", &pos);
     }
